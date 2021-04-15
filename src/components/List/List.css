@@ -1,0 +1,11 @@
+.Person {
+    padding: 10px;
+    width: 200px;
+    cursor: pointer;
+    border: 1px solid gray;
+   
+}
+
+.Person:nth-child(n+2) {
+    border-top: 0px;
+}

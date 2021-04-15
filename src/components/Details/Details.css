@@ -1,0 +1,23 @@
+.PersonDetails {
+    width: 300px;
+}
+.PersonPhoto {
+    display: block;
+    width: 300px;
+}
+
+.PersonDetails>div:nth-child(n+2) {
+    border: 1px solid gray;
+}
+
+.PersonDetails>div:nth-child(n+2) {
+    border-top: 0px;
+}
+
+.PersonName {
+    padding: 30px 10px;
+}
+
+.Det {
+    padding: 10px;
+}
